@@ -1,4 +1,4 @@
-## PROYECT React Estefania Tillero
+## PROJECT React Estefania Tillero
 ***
 
 ## Pre-requisites of the project to make it work on your local computer:
