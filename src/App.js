@@ -4,9 +4,9 @@ import Header from  './Header';
 import './header.css';
 import ItemDetailContainer from "./ItemDetailContainer";
 import Cart from './Cart';
-import { createContext, useEffect } from "react";
+import { createContext} from "react";
 import CartContextProvider from "./CartContext";
-
+import Contactos from "./Contactos";
 
 const productList = [
   {id: 1,title: "Darth Vader",stock: 20,initial: 1,price: 100,image: "/images/darth-vader.jpg",category:"Figura de accion "},
@@ -28,12 +28,12 @@ function App() {
     <CartContextProvider>
       <BrowserRouter>
       <Header />
-      
       <Routes>
         <Route path="/" element={<ItemListContainer productList={productList}/>}/>
         <Route path="/starwars/" element={<ItemListContainer productList={productList}/>}/>
         <Route path="/product/:id" element={<ItemDetailContainer productList={productList}/>}/>
         <Route path="/cart" element={<Cart/>}/>
+        <Route path="/contactos" element={<Contactos/>}/>
         
 
         </Routes>

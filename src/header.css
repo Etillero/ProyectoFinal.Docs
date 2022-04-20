@@ -37,8 +37,8 @@ display: block;
 
 .Menu ul li a:hover{
     color: black;
-    background-color: rgb(236, 245, 116);
-    border-radius: 10px;
+    background-color: rgb(252, 249, 103);
+    border-radius: 30px;
 }
 
 .carWidget{
@@ -47,3 +47,15 @@ display: block;
     float:right;
     padding:10px 20px
 }
+
+.form *{
+    background-color: rgb(245, 243, 125);
+    margin: auto;
+    width: 90%;
+    border-color: #000;
+    color: #000;
+    max-width: 400px;
+    padding: 2.5 em 2em;
+    border-radius: 5px ;
+    text-align: center;
+  }
