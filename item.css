@@ -1,0 +1,76 @@
+
+/*Item Card*/
+
+.itemBox{
+    display: flex;
+    flex-wrap: wrap;
+width: 12%;
+border: 2px solid rgb(220, 238, 61);
+border-radius: 10px;
+padding:0;
+margin: 10px;
+background-color:white;
+justify-content: center;
+}
+.itemBox h4, .itemBox2 h4{
+    width: 100%;
+    padding: 10px 5px ;
+    margin: 0;
+    text-align: center;
+    background-color: rgb(250, 248, 248);
+}
+
+.itemBox p, .itemBox2 p {
+    width: 100%;
+    text-align: center;
+}
+
+.itemBox Button, .itemBox2 Button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+    border: 2px solid rgb(231, 238, 240);
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.itemBox img, .itemBox2 img {
+    width: 80%;
+    height: auto;
+    padding: 10px;
+}
+
+.itemContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/*Item Detail*/
+.BoxCounter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.itemBox2{
+    display: flex;
+    flex-wrap: wrap;
+width: 15%;
+border: 2px solid gray;
+padding:0;
+margin: 10px;
+background-color:rgb(247, 244, 244);
+justify-content: center;
+}
+
+.Counter {
+    display: flex;
+    justify-content: center;
+}
+
+.Cantidad{
+    margin: 20px 0 0 0;
+}
